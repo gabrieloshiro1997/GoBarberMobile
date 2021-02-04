@@ -99,7 +99,7 @@ const Profile: React.FC = () => {
 
           formRef.current?.setErrors(errors);
         }
-        console.log(err);
+
         Alert.alert(
           'Erro na atualização do perfil',
           'Ocorreu um erro ao atualizar seu perfil, tente novamente.',
