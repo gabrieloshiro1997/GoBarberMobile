@@ -128,8 +128,6 @@ const Profile: React.FC = () => {
           return;
         }
 
-        const source = { uri: response.uri };
-
         const data = new FormData();
 
         data.append('avatar', {
